@@ -1,101 +1,56 @@
-.App {
-  text-align: center;
+
+
+.page{
+      display: flex;
+flex-direction:column;
+justify-content: center;
+}
+.header{
+        display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+margin-top: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin:2px;
 }
 
-.input{
-  border-collapse: collapse;
-border-spacing: 0;
-direction: ltr;
-unicode-bidi: isolate;
-font-weight: inherit;
-padding: 0 !important;
-line-height: inherit;
-max-width: 20em;
-word-break: normal;
-display: block;
-box-sizing: border-box;
-color: #333;
-border-radius: 1.538em;
-font-family: inherit;
-font-size: 16px;
-border: none;
-margin: 0px;
-height: auto;
-background: url("https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png") left center no-repeat rgb(255, 255, 255);
-text-indent: 48px;
-outline: none;
+
+.weather-card{
+color: #222;
+font-weight: 500;
+text-align: center;
+font-size: 14px;
+margin: 15px;
+float: left;
 }
 
 h3{
 line-height: 1.2;
-text-align: left;
+text-align: center;
 font-family: arial,sans-serif;
-color: #878787 !important;
-font-weight: lighter !important;
-font-size: x-large !important;
+color: #878787 ;
+font-weight: lighter ;
+font-size: x-large;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.card-details{
+text-align: center;
+font: 16px arial,helvetica,sans-serif;
+color: #878787;
+font-weight: lighter;
+font-size: medium;
+line-height: 22px;
 }
 
-.weatherCard{
-  color: #222;
-font-weight: normal;
-line-height: 1.2;
+.temperature{
 text-align: left;
-font-family: arial,sans-serif;
-font-size: 14px;
-border: 10px solid #dfe1e5;
-border-radius: 8px;
-box-shadow: none;
-background-color: #fff;
-position: relative;
-margin-left: 35%;
-margin-right: 35%;
-padding: 20px 16px 24px 16px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+font: 16px arial,helvetica,sans-serif;
+color: #212121 ;
+font-size: 64px;
+display: inline;
 }
