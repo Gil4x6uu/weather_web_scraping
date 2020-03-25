@@ -48,7 +48,6 @@ app.get('/pageLoad', (req, res) => {
 async function getWeather(url) {
 
     const browser = await puppeteer.launch();
-    console.log('browser');
     const page = await browser.newPage();
     // takes a lot of time - need fix
     await page.goto(url);
@@ -61,22 +60,22 @@ async function getWeather(url) {
         Wind: "Wind: " + dom.window.document.getElementById("wob_tws").textContent,
         Image: dom.window.document.getElementById("wob_tci").src,
         ImageDesc: dom.window.document.getElementById("wob_dc").textContent,
-    };
+        TimeStamp: dom.window.document.getElementById("wob_dts").textContent
+    }; 
     console.log(weatherData);
     return (weatherData);
 };
 
-app.listen(3000, function () {
-    console.log('Server listening on port 3000.');
+app.listen(3001, function () {
+    console.log('Server listening on port 3001.');
     getConstWheathers();
-    
-    
     //update the cities weather
     setInterval(getConstWheathers,300000);
 
 })
 
 function getConstWheathers() {
+    
     newYorkWeather = getWeather(url + "new york");
     sydneyWeather = getWeather(url + "sydney");
 }
