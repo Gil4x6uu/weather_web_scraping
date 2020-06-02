@@ -3,7 +3,7 @@
 A web page that scrapes, crawls and utilizes REST API. The page presents weather information anywhere in the world.
 
 ## Project Screen Shot(s)
-[img/weather_website_example.gif](img/weather_website_example.gif)
+![](img/weather_website_example.gif)
 
 ## Installation and Setup Instructions
 
