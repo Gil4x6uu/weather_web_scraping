@@ -6,9 +6,7 @@ A web page that scrapes, crawls and utilizes REST API. The page presents weather
 
 #### Example:   
 
-[](img/weather_website_example.gif)
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+[img/weather_website_example.gif](img/weather_website_example.gif)
 
 ## Installation and Setup Instructions
 
