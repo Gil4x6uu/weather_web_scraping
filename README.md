@@ -4,20 +4,6 @@ A web page that scrapes, crawls and utilizes REST API. The page presents weather
 ## Project Screen Shot.
 ![](img/weather_website_example.gif)
 
-## Installation and Setup Instructions.
-Clone down this repository. You will need [node](https:https://nodejs.org/en/) and [npm](https:https://nodejs.org/en/) installed globally on your machine. 
-
-To install:
-```bash
-npm install
-```
-To Start Server:
-```bash
-npm start  
-```
-To Visit App:
-[http://localhost:3000]
-
 ## About the project.
 I wanted to build a web page that web crawl google search engine and display Weather data  in real time.
 
@@ -34,6 +20,21 @@ the weather data include:
 4. Windspeed
 5. Icon for the current weather state.
 6. last update time Stamp.
+## Installation and Setup Instructions.
+Clone down this repository. You will need [node](https:https://nodejs.org/en/) and [npm](https:https://nodejs.org/en/) installed globally on your machine. 
+
+To install:
+```bash
+npm install
+```
+To Start Server:
+```bash
+npm start  
+```
+To Visit App:
+[http://localhost:3000]
+
+
 
 
 
