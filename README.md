@@ -1,9 +1,9 @@
 ## Weather website.
 A web page that scrapes, crawls and utilizes REST API. The page presents weather information anywhere in the world.
 
-## Project Screen Shot.
+## Screen Shot:
 ![](img/weather_website_example.gif)
-## Installation and Setup Instructions.
+## Installation and Setup Instructions:
 Clone down this repository. You will need [node](https:https://nodejs.org/en/) and [npm](https:https://nodejs.org/en/) installed globally on your machine. 
 
 To install:
@@ -14,6 +14,10 @@ To Start Server:
 ```bash
 npm start  
 ```
+And then
+```bash
+node server.js
+````
 To Visit App:
 [http://localhost:3000]
 
