@@ -5,12 +5,11 @@ A web page that scrapes, crawls and utilizes REST API. The page presents weather
 ![](img/weather_website_example.gif)
 
 ## Installation and Setup Instructions.
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
-Installation:
-Use Node.js + npm package manager [npm](https:https://nodejs.org/en/).
+Clone down this repository. You will need [node](https:https://nodejs.org/en/) and [npm](https:https://nodejs.org/en/) installed globally on your machine. 
 
+To install:
 ```bash
-npm install weather-web-search
+npm install
 ```
 To Start Server:
 ```bash
@@ -34,6 +33,7 @@ the weather data include:
 3. Humidity
 4. Windspeed
 5. Icon for the current weather state.
+6. last update time Stamp.
 
 
 
