@@ -38,8 +38,7 @@ the weather data include:
 5. Icon for the current weather state.
 6. last update time Stamp.
 
-### Tech/framework used
-###### **Built with**
+### Built with
 - [React](https://reactjs.org/)
 - [material-ui](https://material-ui.com/)
 - [express](https://expressjs.com/)
